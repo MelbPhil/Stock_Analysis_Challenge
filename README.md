@@ -161,5 +161,5 @@ As outlined previously, refactoring the script drastically reduced the time to r
    - `For i = 0 to 11` becomes `For i = 0 to 12`
    - `dataRowEnd = 16`
 
-Without making all of these changes, the script will fail to include the new ticker 'XYZ' and its metrics in the output spreadsheet. And it is worth emphasizing that the script must be updated accordingly each time a new ticker is added to one of the datasets. In this way, adding new tickers may be simpler to perform when working with the unrefactored script, _HOWEVER_, analysing larger datasets very well may take significantly longer. 
+Without making all of these changes, the script will fail to include the new ticker 'XYZ' and its metrics in the output spreadsheet. And it is worth emphasizing that the script must be updated accordingly each time a new ticker is added to one of the datasets. In this way, adding new tickers may be simpler to perform when working with the unrefactored script, _HOWEVER_, running the unrefactored on such larger datasets very well may take significantly longer. 
 
